@@ -1,9 +1,9 @@
 variable "iaas_classic_username" {}
 variable "iaas_classic_api_key" {}
 variable "ibmcloud_api_key" {}
-variable "aws_access_key"
-variable "aws_secret_key"
-variable "aws_region"
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "aws_region" {}
 
 provider "ibm" {
 ibmcloud_api_key   = var.ibmcloud_api_key
