@@ -4,8 +4,8 @@ variable "aws_region" {}
 
 
 provider "aws" {
-aws_access_key = var.aws_access_key
-aws_secret_key = var.aws_secret_key
-aws_region = var.aws_region
+access_key = var.aws_access_key
+secret_key = var.aws_secret_key
+region = var.aws_region
 } 
 
